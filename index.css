@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.p1{
+  font-size: 50px;
+  text-align: center;
+  animation: changcolor 3s infinite alternate;
+}
+
+@keyframes changcolor {
+  0% {color:blue;}
+  25% {color:chartreuse;}
+  50%{color:crimson;}
+  75%{color:yellow;}
+  100%{color:violet;}
+}
+a{
+  margin-right: 15px;
+}
